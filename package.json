@@ -1,0 +1,35 @@
+{
+  "name": "reef-access",
+  "version": "0.0.1",
+  "description": "controlling the access",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/reef-access.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewVanardennen/reef-access.git"
+  },
+  "keywords": [
+    "reeflight",
+    "access point",
+    "reef-access",
+    "reeflight-access"
+  ],
+  "author": "Andrew Vanardennen",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/AndrewVanardennen/reef-access/issues"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "del": "^2.2.2",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "firebase": "^3.6.9",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0"
+  },
+  "homepage": "https://github.com/AndrewVanardennen/reef-access#readme"
+}
